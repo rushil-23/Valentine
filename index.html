@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="card" aria-live="polite">
+      <div class="glow"></div>
+      <p class="tag">To the one who makes my heart race</p>
+      <h1>Will you be my Valentine?</h1>
+      <p class="subtitle">
+        I made this just for you. Pick your answer, and watch the magic happen.
+      </p>
+
+      <div class="buttons" role="group" aria-label="Valentine choices">
+        <button class="btn btn-yes" id="yesBtn">Yes 💖</button>
+        <button class="btn btn-no" id="noBtn">Not yet 🙈</button>
+      </div>
+
+      <div class="message" id="message" hidden>
+        <h2>You said yes! 🌹</h2>
+        <p>
+          I can’t wait to celebrate with you. Get ready for a day full of hugs,
+          chocolate, and love.
+        </p>
+      </div>
+    </main>
+
+    <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
